@@ -1,9 +1,9 @@
 FROM jare/alpine-vim:latest
 
 # User config
-ENV UID="1000" \
+ENV UID="1002" \
     UNAME="developer" \
-    GID="1000" \
+    GID="1002" \
     GNAME="developer" \
     SHELL="/bin/bash" \
     UHOME=/home/developer
